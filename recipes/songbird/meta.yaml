@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1e152e5d6114135d0299a362ffd082ca525a6b4f8fc0cc1891ea131892e10a37
+  sha256:  8c14ff0452a88cef0ab2b38f7af951fa7cb5bac511250202be9000d6102bcd65
 
 
 build:
@@ -39,6 +39,8 @@ requirements:
     - tqdm
     - h5py
     - biom-format
+    - mock
+    - google-pasta
 
 test:
   imports:
